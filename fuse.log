@@ -1,0 +1,25 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/rohan/Desktop/FpgaPWMcontroller/test_isim_beh.exe -prj /home/rohan/Desktop/FpgaPWMcontroller/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/rohan/Desktop/FpgaPWMcontroller/pwm_channel.v" into library work
+Analyzing Verilog file "/home/rohan/Desktop/FpgaPWMcontroller/main.v" into library work
+Analyzing Verilog file "/home/rohan/Desktop/FpgaPWMcontroller/test.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/rohan/Desktop/FpgaPWMcontroller/main.v" Line 83: Size mismatch in connection of port <cycle_width>. Formal port size is 16-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 102992 KB
+Fuse CPU Usage: 2240 ms
+Compiling module pwm_channel
+Compiling module main_default
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 Verilog Units
+Built simulation executable /home/rohan/Desktop/FpgaPWMcontroller/test_isim_beh.exe
+Fuse Memory Usage: 663204 KB
+Fuse CPU Usage: 2260 ms
+GCC CPU Usage: 650 ms

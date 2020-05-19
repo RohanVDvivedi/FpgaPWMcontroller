@@ -1,0 +1,12 @@
+//sw2
+NET "inc"	 		LOC = T8 	| IOSTANDARD = LVTTL;
+//sw3
+NET "dec"		 	LOC = R7 	| IOSTANDARD = LVTTL;
+//d1
+NET "max_lim"		LOC = T9 	| IOSTANDARD = LVTTL;
+//d3
+NET "min_lim"	 	LOC = R9 	| IOSTANDARD = LVTTL;
+//clk
+NET "clk"			LOC = A10	| IOSTANDARD = LVTTL;
+
+NET "servo_pin"	LOC = E12	| IOSTANDARD = LVTTL;
